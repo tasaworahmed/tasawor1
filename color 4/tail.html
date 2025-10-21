@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind pre</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#ABa100] flex items-center justify-center min-h-screen font-sans p-7">
+
+  <!-- Card -->
+  <div class="flex flex-col md:flex-row bg-black rounded-2xl shadow-2xl overflow-hidden w-full max-w-3xl ">
+
+    <!-- left section -->
+    <div class="w-full md:w-1/2 h-40 md:h-auto bg-cover bg-center" 
+      style="background-image:url('water.jpeg')">
+    </div>
+    <!-- right section -->
+    <div class="w-full md:w-1/2 p-6 sm:p-8">
+      <h2 class="text-xl sm:text-2xl font-semibold text-[#ABa100] mb-2 text-center md:text-left">Log In</h2>
+      <p class="text-[#ABa100] text-sm mb-6 text-center md:text-left">
+        Log in to upload or download pictures, videos or music.
+      </p>
+
+      <input type="email" placeholder="Enter your email address"
+        class="w-full border border-gray-300 rounded-lg p-3 mb-4 text-sm focus:ring-2 focus:ring-cyan-500 focus:outline-none">
+
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 gap-3 ">
+        <a href="#" class="text-sm text-[#ABa100] hover:underline text-center sm:text-left">Forgot password?</a>
+        <button class="bg-[#ABa100] text-black px-5 py-2 rounded-lg hover:bg-black hover:text-white transition">
+          Next
+        </button>
+      </div>
+
+      <div class="flex items-center my-4">
+        <hr class="flex-1 border-blue-200">
+        <span class="px-2 text-gray-400 text-sm">Or log in with</span>
+        <hr class="flex-1 border-gray-200">
+      </div>
+
+      <div class="flex justify-center flex-wrap gap-3">
+        <button class="flex items-center gap-2 text-[#ABa100] border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 text-sm w-full sm:w-auto justify-center">
+          <img src="facebook.jpeg" class="w-4 h-4" alt="Facebook"> Facebook
+        </button>
+        <button class="flex items-center gap-2 text-[#ABa100] border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 text-sm w-full sm:w-auto justify-center">
+          <img src="google.jpeg" class="w-4 h-4" alt="Google"> Google
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
