@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARSE Security - Registration</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="flex justify-between items-center bg-sky-400 p-6 rounded mb-6">
+    <h1 class="text-2xl text-blue-900 font-bold">ARSE Security</h1>
+    <nav>
+      <ul class="flex gap-4 font-bold">
+        <li><a href="index.html" class="hover:text-red-600">Home</a></li>
+        <li><a href="registration.html" class="hover:text-red-600">Registration</a></li>
+        <li><a href="product.html" class="hover:text-red-600">Products</a></li>
+        <li><a href="contact.html" class="hover:text-red-600">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="bg-gray-200 p-4 min-h-[calc(84vh-120px)]">
+    <section class="mt-12 text-center">
+      <h2 class="text-blue-900 text-2xl mb-4">Registration Form</h2>
+      <p class="text-gray-600 mb-6">Register and visit our location for tests and further details.</p>
+      <form method="post" class="flex flex-col max-w-md mx-auto gap-3">
+        <label for="name" class="text-left">Name:</label>
+        <input type="text" id="name" name="name" required class="p-2 bg-gray-300 rounded border border-gray-300">
+
+        <label for="father-name" class="text-left">Father's Name:</label>
+        <input type="text" id="father-name" name="father-name" required class="p-2 bg-gray-300 rounded border border-gray-300">
+
+        <label for="email" class="text-left">Email:</label>
+        <input type="email" id="email" name="email" required class="p-2 bg-gray-300 rounded border border-gray-300">
+
+        <button type="submit" class="bg-gray-800 text-white py-2 rounded hover:bg-red-600">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center bg-sky-400 p-4 rounded mt-8">
+    <p>Phone number: 00000000000</p>
+    <p>&copy; ARSE Security. All rights reserved</p>
+    <p>&copy; ARSE Security. All rights reserved 2025</p>
+  </footer>
+</body>
+</html>
